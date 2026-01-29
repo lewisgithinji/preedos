@@ -20,10 +20,10 @@
 Use these EXACT settings:
 
 ```
-Production branch: main
-Build command: cd apps/preedos-kenya-next && pnpm install && pnpm build
-Build output directory: apps/preedos-kenya-next/out
-Root directory: (leave empty or set to /)
+Framework preset: Next.js (Static HTML Export)
+Build command: npm run build
+Build output directory: out
+Root directory: (leave empty)
 ```
 
 ### 3. Environment Variables (Optional)
