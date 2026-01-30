@@ -49,9 +49,7 @@ export const metadata: Metadata = {
     telephone: false,
   },
   metadataBase: new URL('https://preedos.ke'),
-  alternates: {
-    canonical: '/',
-  },
+
   openGraph: {
     type: 'website',
     locale: 'en_KE',

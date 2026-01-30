@@ -18,6 +18,9 @@ export const metadata: Metadata = {
         description:
             'Official HSFTECH partner bringing German-engineered elevator solutions to East Africa.',
     },
+    alternates: {
+        canonical: '/about',
+    },
 }
 
 export default function AboutPage() {

@@ -22,24 +22,34 @@ export function ContactFormCompact() {
         setFormState('submitting')
 
         try {
-            const FORMSPREE_ID = process.env.NEXT_PUBLIC_FORMSPREE_FORM_ID || 'YOUR_FORMSPREE_ID'
-            const FORMSPREE_ENDPOINT = `https://formspree.io/f/${FORMSPREE_ID}`
+            const WEB3FORMS_ACCESS_KEY = process.env.NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY || 'YOUR_ACCESS_KEY'
+            const WEB3FORMS_ENDPOINT = 'https://api.web3forms.com/submit'
 
-            const response = await fetch(FORMSPREE_ENDPOINT, {
+            // Prepare form data
+            const formPayload = {
+                access_key: WEB3FORMS_ACCESS_KEY,
+                subject: `New Contact Form Submission from ${formData.name}`,
+                from_name: 'Preedos Kenya Website',
+                ...formData
+            }
+
+            const response = await fetch(WEB3FORMS_ENDPOINT, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
+                    'Accept': 'application/json'
                 },
-                body: JSON.stringify({
-                    ...formData,
-                    _subject: `New Contact Form Submission from ${formData.name}`,
-                }),
+                body: JSON.stringify(formPayload),
             })
 
-            if (!response.ok) throw new Error('Form submission failed')
+            const data = await response.json()
 
-            setFormState('success')
-            setFormData({ name: '', email: '', phone: '', company: '', projectType: '', message: '' })
+            if (data.success) {
+                setFormState('success')
+                setFormData({ name: '', email: '', phone: '', company: '', projectType: '', message: '' })
+            } else {
+                throw new Error(data.message || 'Form submission failed')
+            }
         } catch (error) {
             console.error('Form submission error:', error)
             setFormState('error')
@@ -62,6 +72,11 @@ export function ContactFormCompact() {
                         <p className="text-secondary-600 mb-8">
                             Fill out the form and our team will respond within 24 hours.
                         </p>
+
+                        {/* Hidden hCaptcha for Web3Forms spam protection if enabled */}
+                        <div className="hidden">
+                            <input type="checkbox" name="botcheck" className="hidden" style={{ display: 'none' }} />
+                        </div>
 
                         {formState === 'success' ? (
                             <div className="bg-green-50 border border-green-200 rounded-2xl p-6 text-center">

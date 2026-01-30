@@ -13,6 +13,9 @@ export const metadata: Metadata = {
         description:
             'Reach out for elevator consultation, quotes, or 24/7 emergency support.',
     },
+    alternates: {
+        canonical: '/contact',
+    },
 }
 
 export default function ContactPage() {

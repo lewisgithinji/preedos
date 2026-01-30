@@ -46,7 +46,7 @@ If you need to add environment variables:
 After deployment:
 1. Go to **Custom domains**
 2. Click **Set up a custom domain**
-3. Enter your domain (e.g., `preedoskenya.com`)
+3. Enter your domain (e.g., `preedos.ke`)
 4. Update your DNS settings as instructed
 
 ## Build Configuration Details

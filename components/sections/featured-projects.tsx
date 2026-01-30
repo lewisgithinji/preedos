@@ -71,22 +71,23 @@ export function FeaturedProjects() {
               <div className="bg-white rounded-2xl overflow-hidden shadow-soft hover:shadow-soft-lg transition-all duration-300">
                 {/* Image */}
                 <div className="aspect-project relative overflow-hidden bg-secondary-100">
-                  <div
-                    className="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-110"
-                    style={{
-                      backgroundImage: `url(${project.images[0] || '/images/projects/placeholder.webp'})`,
-                      backgroundColor: '#E2E8F0',
-                    }}
-                  />
+                  <div className="absolute inset-0 transition-transform duration-500 group-hover:scale-110">
+                    <img
+                      src={project.images[0] || '/images/projects/placeholder.webp'}
+                      alt={project.title}
+                      className="object-cover object-center w-full h-full"
+                      loading="lazy"
+                    />
+                  </div>
                   <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent" />
 
                   {/* Units Badge */}
-                  <div className="absolute top-4 right-4 px-3 py-1 bg-primary-600 text-white rounded-full text-sm font-medium">
+                  <div className="absolute top-4 right-4 px-3 py-1 bg-primary-600 text-white rounded-full text-sm font-medium z-10">
                     {project.units} Units
                   </div>
 
                   {/* Bottom Info */}
-                  <div className="absolute bottom-4 left-4 right-4 text-white" style={{ textShadow: '0 2px 8px rgba(0,0,0,0.8), 0 1px 3px rgba(0,0,0,0.9)' }}>
+                  <div className="absolute bottom-4 left-4 right-4 text-white z-10" style={{ textShadow: '0 2px 8px rgba(0,0,0,0.8), 0 1px 3px rgba(0,0,0,0.9)' }}>
                     <h3 className="font-bold text-lg mb-1 text-white">{project.title}</h3>
                     <div className="flex items-center gap-1 text-sm text-white/90">
                       <MapPin className="h-4 w-4" />
