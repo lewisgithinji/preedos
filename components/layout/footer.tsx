@@ -52,7 +52,7 @@ export function Footer() {
             <Link href="/" className="flex items-center gap-4 mb-6 group">
               <div className="relative h-14 w-14 transform group-hover:scale-105 transition-all duration-300 flex-shrink-0">
                 <img
-                  src="/images/logo.png"
+                  src="/images/logo.webp"
                   alt="Preedos Kenya Icon"
                   className="h-full w-full object-contain"
                 />

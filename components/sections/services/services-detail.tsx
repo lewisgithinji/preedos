@@ -156,7 +156,7 @@ export function ServicesDetail() {
                                 <div
                                     className="aspect-video rounded-2xl bg-secondary-100"
                                     style={{
-                                        backgroundImage: `url(/images/services/${service.id}.jpg)`,
+                                        backgroundImage: `url(/images/services/${service.id}.webp)`,
                                         backgroundSize: 'cover',
                                         backgroundPosition: 'center',
                                     }}

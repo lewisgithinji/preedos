@@ -117,7 +117,7 @@ export function Header() {
             <Link href="/" className="flex items-center gap-4 group">
               <div className="relative h-12 w-12 transition-transform group-hover:scale-105 duration-300 flex-shrink-0">
                 <img
-                  src="/images/logo.png"
+                  src="/images/logo.webp"
                   alt="Preedos Kenya Icon"
                   className="h-full w-full object-contain"
                 />
@@ -259,7 +259,7 @@ export function Header() {
                   <div className="flex items-center gap-3">
                     <div className="relative h-10 w-10 flex-shrink-0">
                       <img
-                        src="/images/logo.png"
+                        src="/images/logo.webp"
                         alt="Preedos Kenya Icon"
                         className="h-full w-full object-contain"
                       />

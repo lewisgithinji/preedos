@@ -5,7 +5,7 @@ export function ContactHero() {
             <div
                 className="absolute inset-0 z-0"
                 style={{
-                    backgroundImage: 'url(/images/contact-hero.jpg)',
+                    backgroundImage: 'url(/images/contact-hero.webp)',
                     backgroundSize: 'cover',
                     backgroundPosition: 'center',
                 }}

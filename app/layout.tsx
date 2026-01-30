@@ -62,7 +62,7 @@ export const metadata: Metadata = {
       'East Africa\'s premier provider of German-engineered elevator solutions. World-class passenger elevators, freight elevators, escalators, and modernization services.',
     images: [
       {
-        url: '/og/default.jpg',
+        url: '/og/default.webp',
         width: 1200,
         height: 630,
         alt: 'Preedos Kenya - German Elevator Technology',
@@ -74,7 +74,7 @@ export const metadata: Metadata = {
     title: 'Preedos Kenya | German Elevator Technology for East Africa',
     description:
       'East Africa\'s premier provider of German-engineered elevator solutions.',
-    images: ['/og/default.jpg'],
+    images: ['/og/default.webp'],
   },
   robots: {
     index: true,

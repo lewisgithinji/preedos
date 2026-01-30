@@ -8,28 +8,28 @@ const partnerCategories = [
         title: 'Technology Partners',
         description: 'Leading technology providers enabling our advanced solutions',
         partners: [
-            { name: 'HSFTECH', logo: '/images/partners/hsftech-logo.png', featured: true },
-            { name: 'Siemens', logo: '/images/partners/siemens-logo.png' },
-            { name: 'Schneider Electric', logo: '/images/partners/schneider-logo.png' },
+            { name: 'HSFTECH', logo: '/images/partners/hsftech-logo.webp', featured: true },
+            { name: 'Siemens', logo: '/images/partners/siemens-logo.webp' },
+            { name: 'Schneider Electric', logo: '/images/partners/schneider-logo.webp' },
         ],
     },
     {
         title: 'Industry Associations',
         description: 'Professional organizations we\'re proud members of',
         partners: [
-            { name: 'Kenya Engineers Board', logo: '/images/partners/keb-logo.png' },
-            { name: 'KEBS', logo: '/images/partners/kebs-logo.png' },
-            { name: 'NCA Kenya', logo: '/images/partners/nca-logo.png' },
+            { name: 'Kenya Engineers Board', logo: '/images/partners/keb-logo.webp' },
+            { name: 'KEBS', logo: '/images/partners/kebs-logo.webp' },
+            { name: 'NCA Kenya', logo: '/images/partners/nca-logo.webp' },
         ],
     },
     {
         title: 'Projects & Clients',
         description: 'Notable organizations that trust our solutions',
         partners: [
-            { name: 'Safaricom', logo: '/images/partners/client-1.png' },
-            { name: 'KCB Group', logo: '/images/partners/client-2.png' },
-            { name: 'Java House', logo: '/images/partners/client-3.png' },
-            { name: 'Radisson Blu', logo: '/images/partners/client-4.png' },
+            { name: 'Safaricom', logo: '/images/partners/client-1.webp' },
+            { name: 'KCB Group', logo: '/images/partners/client-2.webp' },
+            { name: 'Java House', logo: '/images/partners/client-3.webp' },
+            { name: 'Radisson Blu', logo: '/images/partners/client-4.webp' },
         ],
     },
 ]

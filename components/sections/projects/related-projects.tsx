@@ -55,7 +55,7 @@ export function RelatedProjects({ currentProjectId, projectType }: RelatedProjec
                                     <div
                                         className="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-110"
                                         style={{
-                                            backgroundImage: `url(${project.images[0] || '/images/projects/placeholder.jpg'})`,
+                                            backgroundImage: `url(${project.images[0] || '/images/projects/placeholder.webp'})`,
                                             backgroundColor: '#E2E8F0',
                                         }}
                                     />

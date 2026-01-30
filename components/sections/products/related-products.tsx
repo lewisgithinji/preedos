@@ -45,7 +45,7 @@ export function RelatedProducts({ currentProductId, category }: RelatedProductsP
                                     <div
                                         className="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-110"
                                         style={{
-                                            backgroundImage: `url(${product.images[0] || '/images/products/placeholder.jpg'})`,
+                                            backgroundImage: `url(${product.images[0] || '/images/products/placeholder.webp'})`,
                                             backgroundColor: '#E2E8F0',
                                         }}
                                     />

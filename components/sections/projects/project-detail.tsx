@@ -52,7 +52,7 @@ export function ProjectDetail({ project }: ProjectDetailProps) {
                         <div
                             className="aspect-video rounded-2xl bg-secondary-100 mb-8 relative overflow-hidden"
                             style={{
-                                backgroundImage: `url(${project.images[0] || '/images/projects/placeholder.jpg'})`,
+                                backgroundImage: `url(${project.images[0] || '/images/projects/placeholder.webp'})`,
                                 backgroundSize: 'cover',
                                 backgroundPosition: 'center',
                             }}

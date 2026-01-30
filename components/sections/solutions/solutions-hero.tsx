@@ -5,7 +5,7 @@ export function SolutionsHero() {
             <div
                 className="absolute inset-0 z-0"
                 style={{
-                    backgroundImage: 'url(/images/solutions-hero.jpg)',
+                    backgroundImage: 'url(/images/solutions-hero.webp)',
                     backgroundSize: 'cover',
                     backgroundPosition: 'center',
                 }}

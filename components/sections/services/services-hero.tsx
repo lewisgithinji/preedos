@@ -9,7 +9,7 @@ export function ServicesHero() {
             <div
                 className="absolute inset-0 z-0"
                 style={{
-                    backgroundImage: 'url(/images/services-hero.jpg)',
+                    backgroundImage: 'url(/images/services-hero.webp)',
                     backgroundSize: 'cover',
                     backgroundPosition: 'center',
                 }}

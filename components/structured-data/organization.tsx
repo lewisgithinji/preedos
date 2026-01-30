@@ -6,7 +6,7 @@ export function OrganizationSchema() {
     '@type': 'Organization',
     name: SITE_CONFIG.name,
     url: SITE_CONFIG.url,
-    logo: `${SITE_CONFIG.url}/images/logo.png`,
+    logo: `${SITE_CONFIG.url}/images/logo.webp`,
     description: SITE_CONFIG.description,
     contactPoint: [
       {

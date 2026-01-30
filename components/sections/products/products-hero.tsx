@@ -11,7 +11,7 @@ export function ProductsHero() {
             <div
                 className="absolute inset-0 z-0"
                 style={{
-                    backgroundImage: 'url(/images/products-hero.jpg)',
+                    backgroundImage: 'url(/images/products-hero.webp)',
                     backgroundSize: 'cover',
                     backgroundPosition: 'center',
                 }}

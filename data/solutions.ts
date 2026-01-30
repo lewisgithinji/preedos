@@ -30,7 +30,7 @@ export const solutions: Solution[] = [
         ],
         products: ['series-3100', 'hfks-premium', 'home-villa'],
         caseStudies: ['malaysia-villas', 'philippines-platinum'],
-        image: '/images/solutions/residential.jpg',
+        image: '/images/solutions/residential.webp',
     },
     {
         id: 'commercial',
@@ -57,7 +57,7 @@ export const solutions: Solution[] = [
         ],
         products: ['series-3200', 'e200-commercial', 'panorama-p1'],
         caseStudies: ['panama-sands', 'colombia-supermarket'],
-        image: '/images/solutions/commercial.jpg',
+        image: '/images/solutions/commercial.webp',
     },
     {
         id: 'healthcare',
@@ -84,7 +84,7 @@ export const solutions: Solution[] = [
         ],
         products: ['medical-h1', 'f100-freight'],
         caseStudies: [],
-        image: '/images/solutions/healthcare.jpg',
+        image: '/images/solutions/healthcare.webp',
     },
     {
         id: 'hospitality',
@@ -111,7 +111,7 @@ export const solutions: Solution[] = [
         ],
         products: ['panorama-p1', 'hfks-premium', 'f200-mrl-freight'],
         caseStudies: ['pakistan-unicon', 'indonesia-lorin', 'nz-crowne-plaza'],
-        image: '/images/solutions/hospitality.jpg',
+        image: '/images/solutions/hospitality.webp',
     },
     {
         id: 'industrial',
@@ -138,7 +138,7 @@ export const solutions: Solution[] = [
         ],
         products: ['f100-freight', 'f200-mrl-freight'],
         caseStudies: ['midea-wuhu'],
-        image: '/images/solutions/industrial.jpg',
+        image: '/images/solutions/industrial.webp',
     },
     {
         id: 'public-transit',
@@ -165,7 +165,7 @@ export const solutions: Solution[] = [
         ],
         products: ['e300-heavy-duty', 'mw-horizontal', 'series-3200'],
         caseStudies: ['kl-mrt-1-2', 'turkey-metro', 'taiwan-airport', 'seoul-metro', 'urumqi-station'],
-        image: '/images/solutions/public-transit.jpg',
+        image: '/images/solutions/public-transit.webp',
     },
 ]
 

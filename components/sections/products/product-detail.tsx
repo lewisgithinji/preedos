@@ -39,7 +39,7 @@ export function ProductDetail({ product }: ProductDetailProps) {
                         <div
                             className="aspect-video rounded-2xl bg-secondary-100 mb-8 relative overflow-hidden"
                             style={{
-                                backgroundImage: `url(${product.images[0] || '/images/products/placeholder.jpg'})`,
+                                backgroundImage: `url(${product.images[0] || '/images/products/placeholder.webp'})`,
                                 backgroundSize: 'cover',
                                 backgroundPosition: 'center',
                             }}

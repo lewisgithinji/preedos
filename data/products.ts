@@ -42,7 +42,7 @@ export const products: Product[] = [
             'Hotels',
             'Mixed-use developments',
         ],
-        images: ['/images/products/passenger-elevator.jpg'],
+        images: ['/images/products/passenger-elevator.webp'],
         brochureUrl: '/documents/series-3100-brochure.pdf',
     },
     {
@@ -77,7 +77,7 @@ export const products: Product[] = [
             'Government facilities',
             'Transport hubs',
         ],
-        images: ['/images/products/passenger-elevator.jpg'],
+        images: ['/images/products/passenger-elevator.webp'],
         brochureUrl: '/documents/series-3200-brochure.pdf',
     },
     {
@@ -113,7 +113,7 @@ export const products: Product[] = [
             'Private offices',
             'Penthouses',
         ],
-        images: ['/images/products/passenger-elevator.jpg'],
+        images: ['/images/products/passenger-elevator.webp'],
         brochureUrl: '/documents/hfks-brochure.pdf',
     },
 
@@ -154,7 +154,7 @@ export const products: Product[] = [
             'Industrial parks',
             'Distribution facilities',
         ],
-        images: ['/images/products/freight-elevator.jpg'],
+        images: ['/images/products/freight-elevator.webp'],
         brochureUrl: '/documents/f100-brochure.pdf',
     },
     {
@@ -187,7 +187,7 @@ export const products: Product[] = [
             'Hotels',
             'Retail centers',
         ],
-        images: ['/images/products/freight-elevator.jpg'],
+        images: ['/images/products/freight-elevator.webp'],
     },
 
     // ============================================
@@ -227,7 +227,7 @@ export const products: Product[] = [
             'Nursing homes',
             'Rehabilitation centers',
         ],
-        images: ['/images/projects/hospital-elevator.jpg'],
+        images: ['/images/projects/hospital-elevator.webp'],
         brochureUrl: '/documents/hospital-h1-brochure.pdf',
     },
 
@@ -268,7 +268,7 @@ export const products: Product[] = [
             'Tourist attractions',
             'Airports',
         ],
-        images: ['/images/products/panoramic-elevator.jpg'],
+        images: ['/images/products/panoramic-elevator.webp'],
         brochureUrl: '/documents/panorama-brochure.pdf',
     },
 
@@ -309,7 +309,7 @@ export const products: Product[] = [
             'Townhouses',
             'Accessibility retrofits',
         ],
-        images: ['/images/products/passenger-elevator.jpg'],
+        images: ['/images/products/passenger-elevator.webp'],
         brochureUrl: '/documents/villa-brochure.pdf',
     },
 
@@ -350,7 +350,7 @@ export const products: Product[] = [
             'Hotels',
             'Airports',
         ],
-        images: ['/images/projects/shopping-mall.jpg'],
+        images: ['/images/projects/shopping-mall.webp'],
         brochureUrl: '/documents/e200-brochure.pdf',
     },
     {
@@ -387,7 +387,7 @@ export const products: Product[] = [
             'Bus terminals',
             'Public buildings',
         ],
-        images: ['/images/projects/kuala-lumpur-mrt.jpg'],
+        images: ['/images/projects/kuala-lumpur-mrt.webp'],
         brochureUrl: '/documents/e300-brochure.pdf',
     },
 
@@ -428,7 +428,7 @@ export const products: Product[] = [
             'Large shopping centers',
             'Exhibition halls',
         ],
-        images: ['/images/products/moving-walk.jpg'],
+        images: ['/images/products/moving-walk.webp'],
         brochureUrl: '/documents/moving-walk-brochure.pdf',
     },
     {
@@ -461,7 +461,7 @@ export const products: Product[] = [
             'Retail centers',
             'IKEA-style stores',
         ],
-        images: ['/images/products/inclined-moving-walk.jpg'],
+        images: ['/images/products/inclined-moving-walk.webp'],
     },
 
     // ============================================
@@ -498,7 +498,7 @@ export const products: Product[] = [
             'Performance improvements',
             'Safety upgrades',
         ],
-        images: ['/images/products/passenger-elevator.jpg'],
+        images: ['/images/products/passenger-elevator.webp'],
         brochureUrl: '/documents/modernization-brochure.pdf',
     },
 ]

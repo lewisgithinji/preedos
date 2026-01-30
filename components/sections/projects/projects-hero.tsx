@@ -7,7 +7,7 @@ export function ProjectsHero() {
             <div
                 className="absolute inset-0 z-0"
                 style={{
-                    backgroundImage: 'url(/images/projects-hero.jpg)',
+                    backgroundImage: 'url(/images/projects-hero.webp)',
                     backgroundSize: 'cover',
                     backgroundPosition: 'center',
                 }}

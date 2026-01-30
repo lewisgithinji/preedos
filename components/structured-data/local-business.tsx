@@ -11,7 +11,7 @@ export function LocalBusinessSchema() {
     telephone: SITE_CONFIG.phone,
     email: SITE_CONFIG.email,
     priceRange: '$$',
-    image: `${SITE_CONFIG.url}/images/logo.png`,
+    image: `${SITE_CONFIG.url}/images/logo.webp`,
     address: {
       '@type': 'PostalAddress',
       streetAddress: SITE_CONFIG.address.street,

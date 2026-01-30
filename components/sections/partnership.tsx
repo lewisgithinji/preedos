@@ -89,7 +89,7 @@ export function Partnership() {
               <div
                 className="aspect-[4/3] bg-cover bg-center"
                 style={{
-                  backgroundImage: 'url(/images/hsftech-factory.jpg)',
+                  backgroundImage: 'url(/images/hsftech-factory.webp)',
                   backgroundColor: '#E2E8F0',
                 }}
               />

@@ -11,7 +11,7 @@ export const testimonials: Testimonial[] = [
         author: 'John Kariuki',
         role: 'Managing Director',
         company: 'Ace Towers Ltd',
-        image: '/images/testimonials/john-kariuki.jpg',
+        image: '/images/testimonials/john-kariuki.webp',
     },
     {
         quote:
@@ -19,7 +19,7 @@ export const testimonials: Testimonial[] = [
         author: 'Dr. Sarah Omondi',
         role: 'Hospital Administrator',
         company: 'Nairobi Medical Center',
-        image: '/images/testimonials/sarah-omondi.jpg',
+        image: '/images/testimonials/sarah-omondi.webp',
     },
     {
         quote:
@@ -27,7 +27,7 @@ export const testimonials: Testimonial[] = [
         author: 'Michael Mwamba',
         role: 'General Manager',
         company: 'Sunset Beach Resort',
-        image: '/images/testimonials/michael-mwamba.jpg',
+        image: '/images/testimonials/michael-mwamba.webp',
     },
     {
         quote:
@@ -35,7 +35,7 @@ export const testimonials: Testimonial[] = [
         author: 'Alice Mutua',
         role: 'Chief Operating Officer',
         company: 'Urban Heights Development',
-        image: '/images/testimonials/alice-mutua.jpg',
+        image: '/images/testimonials/alice-mutua.webp',
     },
     {
         quote:
@@ -43,7 +43,7 @@ export const testimonials: Testimonial[] = [
         author: 'Richard Oduor',
         role: 'Operations Manager',
         company: 'East African Logistics',
-        image: '/images/testimonials/richard-oduor.jpg',
+        image: '/images/testimonials/richard-oduor.webp',
     },
     {
         quote:
@@ -51,7 +51,7 @@ export const testimonials: Testimonial[] = [
         author: 'Christine Wangari',
         role: 'Homeowner',
         company: 'Private Residence, Karen',
-        image: '/images/testimonials/christine-wangari.jpg',
+        image: '/images/testimonials/christine-wangari.webp',
     },
 ]
 
